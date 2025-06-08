@@ -15,6 +15,6 @@ mongoose
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/donations", require("./routes/donations"));
 
-app.listen((port) => {
+app.listen(() => {
   console.log(`Server running on port ${port}`);
 });
